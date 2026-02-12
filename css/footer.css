@@ -1,0 +1,17 @@
+.footer {
+    padding: 20px 10px;
+    border-top: 2px solid var(--accent-color);
+}
+
+.footer__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 780px) {
+    .footer__list {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+}

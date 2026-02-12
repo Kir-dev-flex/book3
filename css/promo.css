@@ -1,0 +1,30 @@
+.promo {
+    padding-bottom: 80px;
+}
+
+.promo__title {
+    font-size: 80px;
+}
+
+.promo__additional {
+    text-align: center;
+    color: var(--accent-color);
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Urbanist", sans-serif;
+    margin-bottom: 64px;
+}
+
+.promo__img {
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 780px) {
+    .promo__title {
+        font-size: 44px;
+    }
+    .promo__additional {
+        font-size: 18px;
+    }
+}

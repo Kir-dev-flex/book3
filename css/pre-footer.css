@@ -1,0 +1,16 @@
+.pre-footer {
+    padding: 120px 0;
+}
+
+.pre-footer__title span {
+    color: #fff;
+    background: none;
+    -webkit-background-clip: none;
+    -webkit-text-fill-color: #fff;
+}
+
+.pre-footer__link {
+    margin: 0 auto;
+    display: block;
+    max-width: fit-content;
+}
